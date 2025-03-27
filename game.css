@@ -1,0 +1,70 @@
+*, html, body {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.container {
+  background:tomato;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  animation:animasi;
+  animation-duration: 6s;
+  animation-play-state:running;
+  
+}
+
+@keyframes animasi {
+  0%{background:tomato;}
+  25%{background:darkorange;}
+  50%{background:dodgerblue;}
+  75%{background:forestgreen;}
+  100%{background:tomato;}
+}
+
+.judul {
+  padding:5px;
+  color:white;
+}
+
+.deskripsi {
+  font-size:23px;
+  text-align: center;
+  margin-top:30px;
+ 
+}
+
+.hadiah {
+  text-align: center;
+  margin-top:100px;
+}
+
+.kado { 
+  text-decoration: none;
+  background:hotpink;
+  padding:30px;
+  font-size:15px;
+  border-radius: 8px;
+  font-weight: bold;
+  color:white;
+
+}
+
+.kado:hover {
+  background:tomato;
+  transition:.1s;
+}
+
+.logo {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-right:0px;
+  margin-top:50px;
+}
+
+.box {
+  height:300px;
+  width:300px;
+}

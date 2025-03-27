@@ -1,0 +1,21 @@
+body {
+  background:red;
+  animation:animasi;
+  animation-duration: 2s;
+  animation-play-state: running;
+}
+
+@keyframes animasi {
+  0% {background: red;}
+  25%{background:blue;}
+  50%{background:yellow;}
+  75%{background:green;}
+  100%{background:red;}
+}
+
+h1 {
+  text-align: center;
+  margin-top:150px;
+  font-size:80px;
+  
+}

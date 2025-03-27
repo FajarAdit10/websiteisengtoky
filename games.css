@@ -1,0 +1,72 @@
+ body {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  list-style-type:none;
+  text-align: center;
+  padding:20px;
+  margin-top:30px;
+}
+
+.pralax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+a:hover {
+  transition:0.1s;
+  color:greenyellow;
+}
+
+.pralax {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:30px;
+  gap:50px;
+}
+
+.kuning {
+  padding:20px 30px;
+  font-size:30px;
+  font-weight: bold;
+  background:gold;
+}
+
+.merah {
+  padding:20px 32px;
+  font-size:30px;
+  font-weight: bold;
+  background:crimson;
+}
+
+.biru {
+  padding:20px 51px;
+  font-size:30px;
+  font-weight: bold;
+  background:blue;
+}
+
+.stik {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.joystik {
+  width:100px;
+  height: 100px;
+  
+  
+}
